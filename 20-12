@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Brahim & Nadjet</title>
+  <style>
+    /* Import Google Font for the quote */
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+    /* NOTE : Pour "Frunchy Sage", téléverse-moi le fichier .ttf ou .otf
+       et je l'ajouterai avec @font-face. En attendant, il est appliqué par nom. */
+
+    body{
+      margin:0;
+      font-family: 'Georgia', serif;
+      background:#faf5e6;
+      color:#2c2c1e;
+    }
+    .container{
+      max-width:1200px;
+      margin:auto;
+      padding:40px 20px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:40px;
+    }
+    img{
+      width:480px;
+      max-width:100%;
+    }
+    h1{
+      font-family:'Frunchy Sage', serif;
+      font-size:64px;
+      line-height:1.1;
+      margin:0;
+      letter-spacing:2px;
+      color:#2b3a22;
+    }
+    .and{
+      font-size:52px;
+      color:#b98731;
+      font-family:'Frunchy Sage', serif;
+    }
+    .date{
+      margin-top:10px;
+      font-size:20px;
+      letter-spacing:2px;
+      font-family:'Frunchy Sage', serif;
+    }
+    .place{
+      margin-top:20px;
+      font-size:22px;
+      letter-spacing:1px;
+      color:#2b3a22;
+      font-family:'Frunchy Sage', serif;
+    }
+    .quote{
+      margin-top:20px;
+      font-style:italic;
+      font-size:18px;
+      max-width:400px;
+      font-family:'Ibarra Real Nova', serif;
+    }
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      padding:12px 28px;
+      background:#b98731;
+      color:white;
+      font-weight:bold;
+      text-decoration:none;
+      border-radius:4px;
+      font-size:16px;
+      font-family:'Frunchy Sage', serif;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/mnt/data/05105432-d22d-42da-8a59-753a3c1a3cf7.png" alt="fleurs" />
+
+    <div class="text">
+      <h1>BRAHIM<br><span class="and">&</span><br>NADJET</h1>
+      <div class="date">20.12.2025</div>
+      <div class="place">SALLE DE DINER DALAL, KOUBA</div>
+      <div class="quote">Love writes a new chapter, and we invite you to turn the page with us.</div>
+      <a class="btn" href="https://maps.app.goo.gl/hmGdpo7FLVKXYuPV7" target="_blank">LOCALISATION</a>
+    </div>
+  </div>
+</body>
+</html>
